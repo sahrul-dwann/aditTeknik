@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Russo One", sans-serif;
+
+  --color-primary: #17243a;
+  --color-secondary: #f3a712;
+  --color-surface: #f5f6f8;
+  --color-dark: #111827;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: #ffffff;
+  color: #17243a;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* BRAND LOGO */
+
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brand-mark {
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #b91c1c;
+  border-radius: 50%;
+  background: #f1eee6;
+  color: #17243a;
+}
+
+.brand-mark span {
+  font-family: "Russo One", sans-serif;
+  font-size: 17px;
+  letter-spacing: -2px;
+}
+
+.brand-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.brand-name {
+  font-family: "Russo One", sans-serif;
+  font-size: 23px;
+  font-style: italic;
+  line-height: 1.15;
+  letter-spacing: -0.8px;
+
+  /* Warna tulisan Navbar */
+  color: #17243a;
+
+  -webkit-text-stroke: 0.5px #17243a;
+  paint-order: stroke fill;
+  text-shadow: 1px 1px 0 #94a3b8;
+}
+
+.brand-tagline {
+  font-size: 7px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #64748b;
+}
+
+/* Footer variant */
+
+.brand-logo-footer .brand-name {
+  color: #ffffff;
+  -webkit-text-stroke: 0.8px #0f172a;
+}
+
+.brand-logo-footer .brand-tagline {
+  color: #cbd5e1;
+}
