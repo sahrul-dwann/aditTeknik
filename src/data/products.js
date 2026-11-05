@@ -6,7 +6,7 @@ export const products = [
     description:
       'Peralatan kompresor untuk mendukung kebutuhan bengkel dan berbagai aktivitas usaha.',
     image:
-      'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=85',
+      'src/assets/image/compresor.png',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const products = [
     description:
       'Mesin pendukung pekerjaan pemotongan, penghalusan, dan pengerjaan material.',
     image:
-      'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=85',
+      'src/assets/image/gerinda.png',
   },
   {
     id: 3,
