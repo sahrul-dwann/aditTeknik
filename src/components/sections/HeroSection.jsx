@@ -1,6 +1,7 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
 import Container from "../common/Container";
 import Button from "../common/Button";
+import heroImage from "../../assets/image/poster-adit-teknik.png";
 
 function HeroSection() {
   return (
@@ -59,7 +60,7 @@ function HeroSection() {
 
             <div className="relative overflow-hidden rounded-xl">
               <img
-                src="src/assets/image/poster-adit-teknik.png"
+                src={heroImage}
                 alt="Peralatan dan aktivitas teknik industri"
                 className="h-full w-full  md:h-[460px]"
               />
