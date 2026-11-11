@@ -1,5 +1,9 @@
 import compresorImage from "../assets/image/compresor.png";
 import gerindaImage from "../assets/image/gerinda.png";
+import borImage from "../assets/image/bor.png"
+import mesinIndustriImage from "../assets/image/mesin_cutt_off_1.png";
+import mesinStemperImage from "../assets/image/mesin_stamper.jpg";
+import peralatanBengkel from "../assets/image/peralatan-bengkel.jpg";
 
 export const products = [
   {
@@ -25,33 +29,33 @@ export const products = [
     description:
       "Perlengkapan untuk menunjang aktivitas perawatan dan perbaikan.",
     image:
-      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=800&q=85",
+      peralatanBengkel,
   },
   {
     id: 4,
-    name: "Mesin Industri",
+    name: "Mesin Cutting Off",
     category: "Mesin Teknik",
     description:
-      "Pilihan mesin untuk menunjang berbagai kebutuhan pekerjaan dan produksi.",
+      "Mesin pemotong untuk membantu proses pemotongan besi, logam, dan material lainnya secara praktis dan presisi.",
     image:
-      "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&q=85",
+      mesinIndustriImage,
   },
   {
     id: 5,
-    name: "Peralatan Teknik",
+    name: "Mesin Stamper",
     category: "Perlengkapan Industri",
     description:
-      "Berbagai peralatan pendukung pekerjaan teknik dan operasional.",
+      "Mesin pemadat tanah untuk mendukung pekerjaan konstruksi, pemadatan permukaan tanah, dan persiapan area bangunan.",
     image:
-      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=800&q=85",
+      mesinStemperImage,
   },
   {
     id: 6,
-    name: "Peralatan Mesin",
+    name: "Mesin Bor",
     category: "Perlengkapan Industri",
     description:
-      "Perlengkapan untuk mendukung penggunaan dan pemeliharaan mesin.",
+      "	Mesin bor listrik untuk membantu pekerjaan pengeboran pada berbagai material dalam kebutuhan teknik dan industri.",
     image:
-      "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&q=85",
+      borImage,
   },
 ];

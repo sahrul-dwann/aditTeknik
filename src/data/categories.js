@@ -6,32 +6,30 @@ import peralatanIndustri from "../assets/image/perlengkapan-industri.png";
 export const categories = [
   {
     id: 1,
-    title: 'Kompresor',
+    title: "Kompresor",
     description:
-      'Berbagai pilihan kompresor untuk mendukung kebutuhan usaha dan industri.',
+      "Berbagai pilihan kompresor untuk mendukung kebutuhan usaha dan industri.",
     image: compresorProduk,
   },
   {
     id: 2,
-    title: 'Genset & Mesin Teknik',
+    title: "Genset & Mesin Teknik",
     description:
-      'Pilihan mesin teknik untuk menunjang berbagai pekerjaan dan kebutuhan produksi.',
+      "Pilihan mesin teknik untuk menunjang berbagai pekerjaan dan kebutuhan produksi.",
     image: gensetProduk,
   },
   {
     id: 3,
-    title: 'Peralatan Bengkel',
+    title: "Peralatan Bengkel",
     description:
-      'Peralatan pendukung untuk pekerjaan perawatan, perbaikan, dan mekanik.',
-    image:
-      peralatanBengkel,
+      "Peralatan pendukung untuk pekerjaan perawatan, perbaikan, dan mekanik.",
+    image: peralatanBengkel,
   },
   {
     id: 4,
-    title: 'Perlengkapan Industri',
+    title: "Perlengkapan Industri",
     description:
-      'Beragam perlengkapan untuk memenuhi kebutuhan operasional industri.',
-    image:
-      peralatanIndustri,
+      "Beragam perlengkapan untuk memenuhi kebutuhan operasional industri.",
+    image: peralatanIndustri,
   },
-]
+];
